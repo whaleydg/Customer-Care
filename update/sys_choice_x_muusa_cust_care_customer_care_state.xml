@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_muusa_cust_care_customer_care" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 15:23:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fb466141db438300b4a6fff31d961992</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 14:24:29</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>0</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 15:24:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e862d01db438300b4a6fff31d961928</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-14 14:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ac2e695db830300b4a6fff31d961913</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Documents Received</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 15:24:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9696adcddb038300b4a6fff31d961972</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Reimbursement Requested</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>2</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 15:25:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1ce6ad01db438300b4a6fff31d961950</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for User</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>2</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-14 14:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>96c2e695db830300b4a6fff31d961914</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>3</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 15:25:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>90f66d01db438300b4a6fff31d9619c6</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for Vendor</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>3</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-14 14:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>92c2e695db830300b4a6fff31d961915</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>4</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-14 14:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ec2e695db830300b4a6fff31d961915</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scheduled Work</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>5</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-14 14:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ac2e695db830300b4a6fff31d961916</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2017-12-13 14:44:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6a6d9d4ddb038300b4a6fff31d961908</sys_id>
+            <sys_mod_count>67</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_state</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:01:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

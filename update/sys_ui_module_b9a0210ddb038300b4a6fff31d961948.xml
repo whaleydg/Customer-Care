@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Customer Care">3b39ddc9db038300b4a6fff31d96193b</application>
+        <filter/>
+        <name>Customer Care Work Logs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_muusa_cust_care_customer_care_work_log</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2017-12-13 14:58:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b9a0210ddb038300b4a6fff31d961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Care Work Logs</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_ui_module_b9a0210ddb038300b4a6fff31d961948</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2017-12-13 14:58:25</sys_updated_on>
+        <table>x_muusa_cust_care_customer_care_work_log</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

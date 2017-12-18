@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Customer Care Work Log" max_length="40" name="x_muusa_cust_care_customer_care_work_log" type="collection">
+        <element label="Customer Care #" max_length="32" name="customer_care_number" reference="x_muusa_cust_care_customer_care" type="reference"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Source" max_length="25" name="source" type="choice">
+            <choice/>
+        </element>
+        <element label="Summary" max_length="255" name="summary" type="string"/>
+        <element choice="1" label="Work Log Type" max_length="25" name="work_log_type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="customer_care_number"/>
+        </index>
+    </element>
+</database>
