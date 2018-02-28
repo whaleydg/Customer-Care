@@ -12,7 +12,7 @@
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2017-12-13 14:26:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b339ddc9db038300b4a6fff31d96193c</sys_id>
         <sys_mod_count>0</sys_mod_count>

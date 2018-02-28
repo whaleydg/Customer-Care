@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_list parent="x_muusa_cust_care_customer_care" relationship="" sys_domain="global" table="x_muusa_cust_care_customer_care_work_log" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>95175efe4f009300ada30f5d0210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customer_care_number</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>19175efe4f009300ada30f5d0210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>notes</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>99175efe4f009300ada30f5d0210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>1d175efe4f009300ada30f5d0210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>summary</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>9d175efe4f009300ada30f5d0210c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>work_log_type</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_work_log" element="NULL" name="x_muusa_cust_care_customer_care_work_log" parent="x_muusa_cust_care_customer_care" relationship="NULL" sys_domain="global" view="Default view">01175efe4f009300ada30f5d0210c72d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-06 22:28:22</sys_created_on>
+            <sys_id>11175efe4f009300ada30f5d0210c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:28:22</sys_updated_on>
+        </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
@@ -13,10 +103,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2017-12-13 15:08:43</sys_created_on>
+            <sys_created_on>2018-02-06 14:02:25</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>a403e989db038300b4a6fff31d9619ae</sys_id>
+            <sys_id>f94324324f8c5300ada30f5d0210c73c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_muusa_cust_care_customer_care_work_log</sys_name>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
@@ -25,8 +115,8 @@
             <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
             <sys_update_name>sys_ui_list_x_muusa_cust_care_customer_care_work_log_x_muusa_cust_care_customer_care_null</sys_update_name>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2017-12-13 15:08:43</sys_updated_on>
-            <sys_user display_value="David Whaley (whaledg)">990a7ada0f1cf1007c4aee68b1050e60</sys_user>
+            <sys_updated_on>2018-02-06 14:02:25</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

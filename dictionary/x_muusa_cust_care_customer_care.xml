@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" type="collection">
+        <element label="Claim Amount" max_length="40" name="claim_amount" type="currency"/>
+        <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Fuel Type" max_length="25" name="fuel_type" type="choice">
+            <choice>
+                <element label="Diesel" value="Diesel"/>
+                <element label="E85" value="E85"/>
+                <element label="Kerosene" value="Kerosene"/>
+                <element label="Other" value="Other"/>
+                <element label="Plus" value="Plus"/>
+                <element label="Premium" value="Premium"/>
+                <element label="Unleaded" value="Unleaded"/>
+            </choice>
+        </element>
+        <element label="Incident Amount" max_length="40" name="incident_amount" type="currency"/>
+        <element label="Incident Date" max_length="40" name="incident_date" type="glide_date_time"/>
+        <element choice="1" label="Known Issue" max_length="5" name="known_issue" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Pump #" max_length="2" name="pump_number" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Source" max_length="25" name="source" type="choice">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>

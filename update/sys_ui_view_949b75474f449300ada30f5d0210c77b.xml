@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-temp849b75474f449300ada30f5d0210c76ewhaledg</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-02-07 15:06:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>949b75474f449300ada30f5d0210c77b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-02-07 15:06:38</sys_updated_on>
+        <title>Rpt-temp849b75474f449300ada30f5d0210c76ewhaledg</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="wm_task" version="2" view="rpt-temp849b75474f449300ada30f5d0210c76ewhaledg">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>74abb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_category.u_priority</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>f4abb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>78abb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_vendor</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>f8abb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>7cabb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>fcabb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="949b75474f449300ada30f5d0210c77b">30abb5c74f449300ada30f5d0210c7bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_id>70abb5c74f449300ada30f5d0210c7bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>wm_task</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-07 15:06:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>30abb5c74f449300ada30f5d0210c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp849b75474f449300ada30f5d0210c76ewhaledg" name="rpt-temp849b75474f449300ada30f5d0210c76ewhaledg">949b75474f449300ada30f5d0210c77b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

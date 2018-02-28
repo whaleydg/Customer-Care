@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="fuel_type" table="x_muusa_cust_care_customer_care" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diesel</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:40:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6accceb537ac9b004a7edaa543990ea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:40:52</sys_updated_on>
+            <value>Diesel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E85</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:41:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>15eccab537ac9b004a7edaa543990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:41:20</sys_updated_on>
+            <value>E85</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kerosene</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:43:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d55d06f537ac9b004a7edaa543990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:43:34</sys_updated_on>
+            <value>Kerosene</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>052d0a7537ac9b004a7edaa543990ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:42:24</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plus</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:40:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4b9c0e7537ac9b004a7edaa543990e32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:40:05</sys_updated_on>
+            <value>Plus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Premium</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cdacceb537ac9b004a7edaa543990ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:40:31</sys_updated_on>
+            <value>Premium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fuel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unleaded</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence/>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:39:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9c7cceb537ac9b004a7edaa543990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:39:39</sys_updated_on>
+            <value>Unleaded</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>fuel_type</element>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-02-28 15:39:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a48cceb537ac9b004a7edaa543990ea2</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>fuel_type</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_fuel_type</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-02-28 15:43:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

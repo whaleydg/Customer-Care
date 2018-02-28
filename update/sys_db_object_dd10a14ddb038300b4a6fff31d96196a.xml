@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2017-12-13 14:58:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dd10a14ddb038300b4a6fff31d96196a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Customer Care Work Log</sys_name>
