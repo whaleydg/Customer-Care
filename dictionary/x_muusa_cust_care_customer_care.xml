@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" type="collection">
+    <element extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="2" type="collection">
         <element label="Claim Amount" max_length="40" name="claim_amount" type="currency"/>
         <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
             <choice/>
@@ -25,7 +25,20 @@
             <choice/>
         </element>
         <element choice="1" label="Source" max_length="25" name="source" type="choice">
-            <choice/>
+            <choice>
+                <element label="Direct Input" sequence="1" value="Direct Input"/>
+                <element label="Email" sequence="5" value="Email"/>
+                <element label="External Escalation" sequence="10" value="External Escalation"/>
+                <element label="Fax" sequence="15" value="Fax"/>
+                <element label="Phone" sequence="25" value="Phone"/>
+                <element label="SMG Alerts" sequence="30" value="SMG Alerts"/>
+                <element label="Social Media" sequence="35" value="Social Media"/>
+                <element label="Systems Management" sequence="40" value="Systems Management"/>
+                <element label="Text Assist" sequence="45" value="Text Assist"/>
+                <element label="USPS" sequence="50" value="USPS"/>
+                <element label="Voice Mail" sequence="55" value="Voice Mail"/>
+                <element label="Web" sequence="60" value="Web"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
