@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="work_log_type" table="x_muusa_cust_care_customer_care_work_log" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_log_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Communication</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ff6801e3764db004a7edaa543990e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:13:39</sys_updated_on>
+            <value>Customer Communication</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_log_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Follow-up</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>5</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:14:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3d57c8da3764db004a7edaa543990e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:14:47</sys_updated_on>
+            <value>Customer Follow-up</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_log_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Status Update</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>10</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:15:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b6708923764db004a7edaa543990e40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:15:09</sys_updated_on>
+            <value>Customer Status Update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_log_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Information</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>15</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dd87009e3724db004a7edaa543990e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:15:34</sys_updated_on>
+            <value>General Information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_log_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Status Update</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>20</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:17:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>13e784da3764db004a7edaa543990e04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:17:21</sys_updated_on>
+            <value>Status Update</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_log_type</element>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:13:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dd1748923764db004a7edaa543990e26</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>work_log_type</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_work_log_work_log_type</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:17:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

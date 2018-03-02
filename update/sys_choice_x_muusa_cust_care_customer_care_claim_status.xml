@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="claim_status" table="x_muusa_cust_care_customer_care" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claim_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>10</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aa954fc63724db004a7edaa543990e3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:27:47</sys_updated_on>
+            <value>Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claim_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>20</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:28:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ab50bc63724db004a7edaa543990efe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:28:05</sys_updated_on>
+            <value>Denied</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claim_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied with payment</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>30</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0ed58bc63724db004a7edaa543990e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:28:37</sys_updated_on>
+            <value>Denied with payment</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>claim_status</element>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:27:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a5a5cf8237e0db004a7edaa543990e56</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>claim_status</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_claim_status</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:28:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

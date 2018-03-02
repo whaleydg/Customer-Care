@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="source" table="x_muusa_cust_care_customer_care_work_log" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:25:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>78c9005e3764db004a7edaa543990e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:25:36</sys_updated_on>
+            <value>Email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>5</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:33:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>58bbc8da3764db004a7edaa543990e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:33:48</sys_updated_on>
+            <value>Phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voice Mail</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>10</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:34:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>65eb445a3724db004a7edaa543990eb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:34:42</sys_updated_on>
+            <value>Voice Mail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>15</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:35:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aafb445e3724db004a7edaa543990e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:35:02</sys_updated_on>
+            <value>Web</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sequence>20</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:35:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>991cc8da3764db004a7edaa543990e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:35:30</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <name>x_muusa_cust_care_customer_care_work_log</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 19:25:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>14d9405e3764db004a7edaa543990e35</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>source</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_work_log_source</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 19:35:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

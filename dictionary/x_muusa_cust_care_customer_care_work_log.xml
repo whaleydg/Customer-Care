@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Customer Care Work Log" max_length="40" name="x_muusa_cust_care_customer_care_work_log" type="collection">
-        <element label="Customer Care #" max_length="32" name="customer_care_number" reference="x_muusa_cust_care_customer_care" type="reference"/>
+        <element label="Customer Care #" max_length="32" name="customer_care_number" read_only="true" reference="x_muusa_cust_care_customer_care" type="reference"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Source" max_length="25" name="source" type="choice">
-            <choice/>
+            <choice>
+                <element label="Email" sequence="1" value="Email"/>
+                <element label="Phone" sequence="5" value="Phone"/>
+                <element label="Voice Mail" sequence="10" value="Voice Mail"/>
+                <element label="Web" sequence="15" value="Web"/>
+                <element label="Other" sequence="20" value="Other"/>
+            </choice>
         </element>
         <element label="Summary" max_length="255" name="summary" type="string"/>
         <element choice="1" label="Work Log Type" max_length="25" name="work_log_type" type="choice">
-            <choice/>
+            <choice>
+                <element label="Customer Communication" sequence="1" value="Customer Communication"/>
+                <element label="Customer Follow-up" sequence="5" value="Customer Follow-up"/>
+                <element label="Customer Status Update" sequence="10" value="Customer Status Update"/>
+                <element label="General Information" sequence="15" value="General Information"/>
+                <element label="Status Update" sequence="20" value="Status Update"/>
+            </choice>
         </element>
         <index name="index">
             <element name="customer_care_number"/>

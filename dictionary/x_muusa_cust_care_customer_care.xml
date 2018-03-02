@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="2" type="collection">
-        <element label="Claim Amount" max_length="40" name="claim_amount" type="currency"/>
-        <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
-            <choice/>
+        <element choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
+            <choice>
+                <element label="Visa" sequence="10" value="Visa"/>
+                <element label="Mastercard" sequence="20" value="Mastercard"/>
+                <element label="Discover" sequence="30" value="Discover"/>
+                <element label="Wright Express" sequence="40" value="Wright Express"/>
+                <element label="Walmart Shopping Card" sequence="50" value="Walmart Shopping Card"/>
+                <element label="Walmart Credit Card" sequence="60" value="Walmart Credit Card"/>
+                <element label="Walmart Discover" sequence="70" value="Walmart Discover"/>
+                <element label="Voyager" sequence="80" value="Voyager"/>
+                <element label="Other" sequence="90" value="Other"/>
+            </choice>
         </element>
+        <element label="Check Number" max_length="10" name="check_number" type="string"/>
+        <element label="Claim Amount" max_length="40" name="claim_amount" type="currency"/>
+        <element label="Claim Number" max_length="15" name="claim_number" type="string"/>
+        <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
+            <choice>
+                <element label="Approved" sequence="10" value="Approved"/>
+                <element label="Denied" sequence="20" value="Denied"/>
+                <element label="Denied with payment" sequence="30" value="Denied with payment"/>
+            </choice>
+        </element>
+        <element label="Financial Institution" max_length="100" name="financial_institution" type="string"/>
+        <element label="Institution Phone" max_length="12" name="fin_inst_phone" type="string"/>
         <element choice="1" label="Fuel Type" max_length="25" name="fuel_type" type="choice">
             <choice>
                 <element label="Diesel" value="Diesel"/>
@@ -19,10 +40,47 @@
         <element label="Incident Amount" max_length="40" name="incident_amount" type="currency"/>
         <element label="Incident Date" max_length="40" name="incident_date" type="glide_date_time"/>
         <element choice="1" label="Known Issue" max_length="5" name="known_issue" type="choice">
-            <choice/>
+            <choice>
+                <element label="Cross Drop" sequence="10" value="Cross Drop"/>
+                <element label="Water Contamination" sequence="20" value="Water Contamination"/>
+                <element label="Product Contamination" sequence="30" value="Product Contamination"/>
+                <element label="Other" sequence="40" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="format=none" label="Last 4 Digits" max_length="4" name="last_four_digits" type="integer"/>
+        <element choice="1" label="Preferred Reimbursement" max_length="10" name="preferred_reimbursement" type="choice">
+            <choice>
+                <element label="Check" sequence="1" value="Check"/>
+                <element label="Gift Card" sequence="5" value="Gift Card"/>
+            </choice>
         </element>
         <element choice="1" label="Pump #" max_length="2" name="pump_number" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+                <element label="4" sequence="3" value="4"/>
+                <element label="5" sequence="4" value="5"/>
+                <element label="6" sequence="5" value="6"/>
+                <element label="7" sequence="6" value="7"/>
+                <element label="8" sequence="7" value="8"/>
+                <element label="9" sequence="8" value="9"/>
+                <element label="10" sequence="9" value="10"/>
+                <element label="11" sequence="10" value="11"/>
+                <element label="12" sequence="11" value="12"/>
+                <element label="13" sequence="12" value="13"/>
+                <element label="14" sequence="13" value="14"/>
+                <element label="15" sequence="14" value="15"/>
+                <element label="16" sequence="15" value="16"/>
+                <element label="17" sequence="16" value="17"/>
+                <element label="18" sequence="17" value="18"/>
+                <element label="19" sequence="18" value="19"/>
+                <element label="20" sequence="19" value="20"/>
+                <element label="21" sequence="20" value="21"/>
+                <element label="22" sequence="21" value="22"/>
+                <element label="23" sequence="22" value="23"/>
+                <element label="24" sequence="23" value="24"/>
+            </choice>
         </element>
         <element choice="1" label="Source" max_length="25" name="source" type="choice">
             <choice>
@@ -44,5 +102,6 @@
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element label="WM Case ID" max_length="15" name="wm_case_id" type="string"/>
     </element>
 </database>

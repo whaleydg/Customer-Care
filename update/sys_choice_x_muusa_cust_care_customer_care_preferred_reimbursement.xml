@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="preferred_reimbursement" table="x_muusa_cust_care_customer_care" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_reimbursement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>1</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:45:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eda9874a3724db004a7edaa543990e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:45:27</sys_updated_on>
+            <value>Check</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>preferred_reimbursement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gift Card</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>5</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:46:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bdb94f0a3724db004a7edaa543990e44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:46:05</sys_updated_on>
+            <value>Gift Card</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>preferred_reimbursement</element>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:45:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2cb98f0a3724db004a7edaa543990ec0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>preferred_reimbursement</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_preferred_reimbursement</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:46:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

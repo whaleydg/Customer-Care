@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="card_type" table="x_muusa_cust_care_customer_care" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visa</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>10</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>35874b0a3724db004a7edaa543990ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:36:15</sys_updated_on>
+            <value>Visa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mastercard</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>20</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:36:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fda78fc63724db004a7edaa543990e6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:36:31</sys_updated_on>
+            <value>Mastercard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discover</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>30</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:36:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2cb70fc63724db004a7edaa543990e62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:36:43</sys_updated_on>
+            <value>Discover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wright Express</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>40</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:36:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2fb74b0a3724db004a7edaa543990e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:36:55</sys_updated_on>
+            <value>Wright Express</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Walmart Shopping Card</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>50</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:37:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ec7cbc63724db004a7edaa543990ef1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:09</sys_updated_on>
+            <value>Walmart Shopping Card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Walmart Credit Card</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>60</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>39d78fc63724db004a7edaa543990e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:21</sys_updated_on>
+            <value>Walmart Credit Card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Walmart Discover</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>70</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:37:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ece707ca37e0db004a7edaa543990ef2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:32</sys_updated_on>
+            <value>Walmart Discover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voyager</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>80</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:37:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>40f78fc63724db004a7edaa543990e72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:47</sys_updated_on>
+            <value>Voyager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>90</sequence>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:37:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ef70f0a3724db004a7edaa543990e15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:58</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>card_type</element>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-01 14:36:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>25974bc63724db004a7edaa543990ea7</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>card_type</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_choice_x_muusa_cust_care_customer_care_card_type</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-01 14:37:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
