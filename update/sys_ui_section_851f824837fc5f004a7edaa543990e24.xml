@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="851f824837fc5f004a7edaa543990e24" sys_domain="global" table="cmn_location" version="3" view="popup_customer_care">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>67ffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district</element>
+            <position>1</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>e7ffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district.u_parent</element>
+            <position>2</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>6bffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district.u_parent.u_parent</element>
+            <position>3</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>ebffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_open_date_datetime</element>
+            <position>4</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>6fffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>efffc68837fc5f004a7edaa543990e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>6</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>63ffc68837fc5f004a7edaa543990e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district.u_manager</element>
+            <position>7</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>e3ffc68837fc5f004a7edaa543990e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district.u_parent.u_manager</element>
+            <position>8</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>67ffc68837fc5f004a7edaa543990e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_district.u_parent.u_parent.u_manager</element>
+            <position>9</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:41:12</sys_created_on>
+            <sys_id>e7ffc68837fc5f004a7edaa543990e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:41:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmn_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 15:37:12</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>851f824837fc5f004a7edaa543990e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmn_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_ui_section_851f824837fc5f004a7edaa543990e24</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 15:37:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="popup_customer_care" name="popup_customer_care">091f824837fc5f004a7edaa543990e23</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

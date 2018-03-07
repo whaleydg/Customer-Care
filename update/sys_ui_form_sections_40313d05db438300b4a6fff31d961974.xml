@@ -14,6 +14,19 @@
             <sys_updated_by>whaledg</sys_updated_by>
             <sys_updated_on>2018-03-06 15:19:02</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-03-07 14:57:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>44168a8437fc5f004a7edaa543990ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_muusa_cust_care_customer_care" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">40313d05db438300b4a6fff31d961974</sys_ui_form>
+            <sys_ui_section caption="Claim Info and Payment Options" display_value="Claim Info and Payment Options" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">cc168a8437fc5f004a7edaa543990edd</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-03-07 14:57:48</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_muusa_cust_care_customer_care</name>
             <roles/>
@@ -23,7 +36,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>40313d05db438300b4a6fff31d961974</sys_id>
-            <sys_mod_count>11</sys_mod_count>
+            <sys_mod_count>12</sys_mod_count>
             <sys_name>x_muusa_cust_care_customer_care</sys_name>
             <sys_overrides/>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
@@ -32,7 +45,7 @@
             <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
             <sys_update_name>sys_ui_form_sections_40313d05db438300b4a6fff31d961974</sys_update_name>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-03-06 15:18:59</sys_updated_on>
+            <sys_updated_on>2018-03-07 14:57:48</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
