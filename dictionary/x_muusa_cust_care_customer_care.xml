@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="2" type="collection">
+    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="3" type="collection">
         <element choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
             <choice>
                 <element label="Visa" sequence="10" value="Visa"/>
@@ -98,10 +98,12 @@
                 <element label="Web" sequence="60" value="Web"/>
             </choice>
         </element>
+        <element dependent="company" dependent_on_field="company" label="Store Employee" max_length="32" name="store_employee" reference="sys_user" reference_qual="javascript:current.location == '' ? '' : &quot;location=&quot; + current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element label="Summary" max_length="32" name="u_summary" reference="u_category" type="reference"/>
         <element label="WM Case ID" max_length="15" name="wm_case_id" type="string"/>
     </element>
 </database>

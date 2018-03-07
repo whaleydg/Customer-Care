@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="std_change_template">
+    <std_change_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <global>true</global>
+        <group/>
+        <link_element/>
+        <name>Set up vendor for EDI</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Set up vendor for EDI</short_description>
+        <show_on_template_bar>false</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>std_change_template</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:17:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c1fbdf9337205f004a7edaa543990e61</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set up vendor for EDI</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>std_change_template_c1fbdf9337205f004a7edaa543990e61</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-03-05 13:32:27</sys_updated_on>
+        <table>change_request</table>
+        <template>short_description=Set up vendor for EDI^description=Set up for vendor to  use EDI^backout_plan=DELETE FROM edi.dbo.EDIVendors WHERE Vendor = '#######' AND TYPE = 'DX'&#13;
+DELETE FROM edi.dbo.EDIVendors WHERE Vendor = '#######' AND Type = 'SR'&#13;
+Update edi.dbo.EFTVendors  Set Active = 0 WHERE EDI_ID = #### AND VendorNum = ####^test_plan=Run the following on mochomesql to view a summary of the vendor setup.  &#13;
+SELECT * FROM edi.dbo.vw_PDIVendorNumber WHERE Enterprise = ######&#13;
+^u_business_justification=To receive invoices via EDI for this vendor^u_service_impact_assessment=None.^change_plan=see attachment^EQ</template>
+        <user display_value="David Whaley (whaledg)">990a7ada0f1cf1007c4aee68b1050e60</user>
+        <view/>
+    </std_change_template>
+</record_update>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="std_change_record_producer">
+    <std_change_record_producer action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="TS - Application Development">9674bb6337f232004a7edaa543990ed4</category>
+        <closed_change_count>0</closed_change_count>
+        <cost/>
+        <current_version display_value="Set up vendor for EDI - 3">b55f971737205f004a7edaa543990e67</current_version>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Set up vendor for EDI</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <percent_successful>0</percent_successful>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1dfbdf9337205f004a7edaa543990e61&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <retired>true</retired>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.std_change_producer_version= "535e131737205f004a7edaa543990e1a";
+current.type= "standard";
+GlideSysAttachment.copy("std_change_record_producer", "1dfbdf9337205f004a7edaa543990e61", current.getTableName(), current.getUniqueValue());
+]]></script>
+        <short_description/>
+        <start_closed>false</start_closed>
+        <sys_class_name>std_change_record_producer</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:17:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1dfbdf9337205f004a7edaa543990e61</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set up vendor for EDI</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>std_change_record_producer_1dfbdf9337205f004a7edaa543990e61</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-03-05 13:32:26</sys_updated_on>
+        <table_name>change_request</table_name>
+        <template display_value="Set up vendor for EDI">c1fbdf9337205f004a7edaa543990e61</template>
+        <type>item</type>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <u_use_workflow_stages>false</u_use_workflow_stages>
+        <unsuccessful_change_count>0</unsuccessful_change_count>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </std_change_record_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=1dfbdf9337205f004a7edaa543990e61"/>
+    <fx_price action="delete_multiple" query="id=1dfbdf9337205f004a7edaa543990e61"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>1dfbdf9337205f004a7edaa543990e61</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:17:38</sys_created_on>
+        <sys_id>91fbdf9337205f004a7edaa543990e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-03-05 13:17:38</sys_updated_on>
+        <table>std_change_record_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>1dfbdf9337205f004a7edaa543990e61</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:17:38</sys_created_on>
+        <sys_id>95fbdf9337205f004a7edaa543990e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-03-05 13:17:38</sys_updated_on>
+        <table>std_change_record_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>text/plain</content_type>
+        <encryption_context/>
+        <file_name>EDI Change Plan.txt</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1227</size_bytes>
+        <size_compressed>590</size_compressed>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:28:10</sys_created_on>
+        <sys_id>6f5e131737205f004a7edaa543990e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-03-05 13:28:10</sys_updated_on>
+        <table_name>std_change_record_producer</table_name>
+        <table_sys_id>1dfbdf9337205f004a7edaa543990e61</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="EDI Change Plan.txt" sys_id="6f5e131737205f004a7edaa543990e1b">6f5e131737205f004a7edaa543990e1b</sys_attachment>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:28:10</sys_created_on>
+        <sys_id>635e131737205f004a7edaa543990e1c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>pVRRb6JAEH438T9M0gf1gkTTa+I99HJG8MpFxSDt9dI0hsKom8Autwt4/fc3C4utibmHniQGhp1vvu+bGRx34YYuzAN/CZgwO3kRtut4D8gTIRX8vHMDF5onuIXeVfPrwXTlQPhr7eqg89jrdpz/AXrNUQc3AQHd50lU4BvGPGwxNljANC5YpQ+PDCTV2HoOBTRcjdYcX5WZCXY7+gpKDsUBYSfSVBwZ34PgkIn4IDJUv1MoBFQMjxCBKrMskq8gdnVC1XBWWJS5Dd3OhoTOQvh0LrU6btetWir9grLlxwuUuWQKDZ2WUChAYoxaDeOVYDEqYhBpQURSUm2mTPEmwXFniykhfjOMqkjGh0j2JwNNKjzFW3d7Omk4JNcUlDk4jzZM09RAKtiTm7qG3e14q40bhOCtQv9C7/p1fyzj6wAepot7dwN93XerrTqApprH47RMUDtHilPGSRU7M3Kv+WwK6nGGvIAA4w8ToHk5I/BPGD8vmODqlG3yLLi2YPzRbLjRyY30mcjyFItWuyowv6idJlof/07+N8N7mqnQX8N4BDt7jphsm5cWoH0aq26nHrqlP3P/UO/5HmuWc5biWgqaIAU7WFAB+OF7K3giiGf7iY7QP91PxqM7jBKUz4B6/NGer+vd2dU33c7xgBJhfDuuF2lnz8KF55indzT0iN2Mrr98Hk/qITPOXVjZfivilGuZFbZgGfEySv0KpWQJvrXVfBq+WmZdrshiC0YDGNKiKJStbRDxBN5Z8xfPI93hywQAAA==</data>
+        <length>776</length>
+        <position>1</position>
+        <sys_attachment display_value="EDI Change Plan.txt" sys_id="6f5e131737205f004a7edaa543990e1b">6f5e131737205f004a7edaa543990e1b</sys_attachment>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-03-05 13:28:10</sys_created_on>
+        <sys_id>ef5e131737205f004a7edaa543990e1b</sys_id>
+    </sys_attachment_doc>
+</record_update>
