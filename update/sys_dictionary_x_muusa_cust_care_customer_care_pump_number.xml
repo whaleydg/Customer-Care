@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="pump_number" table="x_muusa_cust_care_customer_care">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[answer = "";]]></calculation>
@@ -25,6 +26,8 @@
         <element>pump_number</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>2</max_length>
@@ -46,8 +49,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-02-28 14:12:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>d627b17d376c9b004a7edaa543990efb</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c2b65c54373013004a7edaa543990e35</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Pump #</sys_name>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
@@ -55,8 +58,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
         <sys_update_name>sys_dictionary_x_muusa_cust_care_customer_care_pump_number</sys_update_name>
-        <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2018-02-28 14:12:24</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-08 01:33:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_label/>

@@ -22,7 +22,7 @@
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-02-28 16:06:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e8b29e3937ac9b004a7edaa543990e0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sys_created_on</sys_name>

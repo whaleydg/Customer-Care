@@ -3,6 +3,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
@@ -24,13 +25,18 @@
         <column>u_afe_number</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
+        <created_by_user display_value="David Whaley (whaledg)">990a7ada0f1cf1007c4aee68b1050e60</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
+        <custom_config/>
         <decimal_precision>0</decimal_precision>
         <description/>
         <direction>minimize</direction>
+        <display_column_lines>false</display_column_lines>
         <display_grid>false</display_grid>
+        <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
+        <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,u_category.u_priority,location,assigned_vendor,state,short_description,sys_created_on</field_list>
@@ -44,6 +50,7 @@
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
+        <import_table/>
         <interval>year</interval>
         <is_published>false</is_published>
         <is_scheduled>false</is_scheduled>
@@ -63,6 +70,7 @@
         <other_threshold>-2</other_threshold>
         <others>true</others>
         <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
         <roles/>
@@ -72,22 +80,26 @@
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+        <series_name_text/>
         <set_color/>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
+        <source_type>table</source_type>
+        <start_time/>
         <sumfield>business_duration</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-02-07 15:06:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>849b75474f449300ada30f5d0210c76e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Open WO Tasks</sys_name>

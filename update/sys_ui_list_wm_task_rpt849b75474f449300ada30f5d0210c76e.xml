@@ -119,7 +119,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-07 15:06:56</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>68abb5c74f449300ada30f5d0210c7ac</sys_id>
             <sys_mod_count>0</sys_mod_count>

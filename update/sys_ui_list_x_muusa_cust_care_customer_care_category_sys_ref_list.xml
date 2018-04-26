@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_muusa_cust_care_customer_care_category" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>categorical</element>
+            <list_id display_value="x_muusa_cust_care_customer_care_category" element="NULL" name="x_muusa_cust_care_customer_care_category" parent="NULL" relationship="NULL" sys_domain="global" view="2dbc34116f1221002381bc237d3ee412">c68b567bdbe153004880f1f51d96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-04-25 14:55:56</sys_created_on>
+            <sys_id>8e8b567bdbe153004880f1f51d96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-04-25 14:55:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_muusa_cust_care_customer_care_category</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-04-25 14:55:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c68b567bdbe153004880f1f51d96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_muusa_cust_care_customer_care_category</sys_name>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_ui_list_x_muusa_cust_care_customer_care_category_sys_ref_list</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-04-25 14:55:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">2dbc34116f1221002381bc237d3ee412</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

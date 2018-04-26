@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Customer Care Work Log" max_length="40" name="x_muusa_cust_care_customer_care_work_log" type="collection">
-        <element label="Customer Care #" max_length="32" name="customer_care_number" read_only="true" reference="x_muusa_cust_care_customer_care" type="reference"/>
+        <element label="Customer Care #" max_length="32" name="customer_care_number" read_only="true" reference="x_muusa_cust_care_customer_care" reference_floats="true" type="reference"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Source" max_length="25" name="source" type="choice">

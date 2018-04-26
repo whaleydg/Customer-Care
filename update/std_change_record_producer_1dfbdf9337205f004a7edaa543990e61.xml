@@ -8,7 +8,7 @@
         <category display_value="TS - Application Development">9674bb6337f232004a7edaa543990ed4</category>
         <closed_change_count>0</closed_change_count>
         <cost/>
-        <current_version display_value="Set up vendor for EDI - 3">b55f971737205f004a7edaa543990e67</current_version>
+        <current_version display_value="">b55f971737205f004a7edaa543990e67</current_version>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -16,6 +16,7 @@
         <description/>
         <entitlement_script/>
         <group/>
+        <hide_sp>true</hide_sp>
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
@@ -38,10 +39,11 @@
         <ordered_item_link/>
         <percent_successful>0</percent_successful>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1dfbdf9337205f004a7edaa543990e61&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1dfbdf9337205f004a7edaa543990e61&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
+        <redirect_url/>
         <retired>true</retired>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
@@ -52,21 +54,22 @@ current.type= "standard";
 GlideSysAttachment.copy("std_change_record_producer", "1dfbdf9337205f004a7edaa543990e61", current.getTableName(), current.getUniqueValue());
 ]]></script>
         <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>std_change_record_producer</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-03-05 13:17:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1dfbdf9337205f004a7edaa543990e61</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set up vendor for EDI</sys_name>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
         <sys_update_name>std_change_record_producer_1dfbdf9337205f004a7edaa543990e61</sys_update_name>
-        <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2018-03-05 13:32:26</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-08 07:35:33</sys_updated_on>
         <table_name>change_request</table_name>
         <template display_value="Set up vendor for EDI">c1fbdf9337205f004a7edaa543990e61</template>
         <type>item</type>
@@ -119,6 +122,7 @@ GlideSysAttachment.copy("std_change_record_producer", "1dfbdf9337205f004a7edaa54
     </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>text/plain</content_type>
         <encryption_context/>

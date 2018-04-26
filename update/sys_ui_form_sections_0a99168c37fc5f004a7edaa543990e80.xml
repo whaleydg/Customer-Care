@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_form_sections form_id="0a99168c37fc5f004a7edaa543990e80" sys_domain="global" table="cmn_location" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-03-08 01:34:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>57a71494373013004a7edaa543990e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmn_location" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">0a99168c37fc5f004a7edaa543990e80</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="091f824837fc5f004a7edaa543990e23">851f824837fc5f004a7edaa543990e24</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-03-08 01:34:00</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>cmn_location</name>
             <roles/>
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-03-07 16:23:12</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>0a99168c37fc5f004a7edaa543990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>

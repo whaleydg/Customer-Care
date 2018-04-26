@@ -6,7 +6,7 @@
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-03-05 13:17:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>51fbdf9337205f004a7edaa543990e63</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Catalog.Set up vendor for EDI</sys_name>

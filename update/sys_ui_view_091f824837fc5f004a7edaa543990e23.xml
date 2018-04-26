@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-03-07 15:37:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>091f824837fc5f004a7edaa543990e23</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>popup_customer_care</sys_name>

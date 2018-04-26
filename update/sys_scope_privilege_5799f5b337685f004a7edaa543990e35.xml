@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-03-06 19:24:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5799f5b337685f004a7edaa543990e35</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SubCategoryAjax</sys_name>

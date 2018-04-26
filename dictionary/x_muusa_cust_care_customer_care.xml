@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="6" type="collection">
+    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="1" type="collection">
         <element choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
             <choice>
                 <element label="Visa" sequence="10" value="Visa"/>
@@ -15,7 +15,7 @@
             </choice>
         </element>
         <element label="Check Number" max_length="10" name="check_number" type="string"/>
-        <element label="Claim Amount" max_length="40" name="claim_amount" type="currency"/>
+        <element label="Claim Amount" max_length="15" name="claim_amount" type="currency"/>
         <element label="Claim Number" max_length="15" name="claim_number" type="string"/>
         <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
             <choice>
@@ -37,7 +37,7 @@
                 <element label="Unleaded" value="Unleaded"/>
             </choice>
         </element>
-        <element label="Incident Amount" max_length="40" name="incident_amount" type="currency"/>
+        <element label="Incident Amount" max_length="15" name="incident_amount" type="currency"/>
         <element label="Incident Date" max_length="40" name="incident_date" type="glide_date_time"/>
         <element choice="1" label="Known Issue" max_length="5" name="known_issue" type="choice">
             <choice>
@@ -100,11 +100,12 @@
         </element>
         <element dependent="company" dependent_on_field="company" label="Store Employee" max_length="32" name="store_employee" reference="sys_user" reference_qual="javascript:current.location == '' ? '' : &quot;location=&quot; + current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element label="Call Script" max_length="8000" name="u_call_script" read_only="true" type="html"/>
         <element attributes="omit_sys_original=true" label="Amount Paid" max_length="15" name="u_currency_1" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
-        <element label="Summary" max_length="32" name="u_summary" reference="u_category" reference_qual="u_active=true^u_table=customer care^u_level&gt;0^EQ" reference_qual_condition="u_active=true^u_table=customer care^u_level&gt;0^EQ" type="reference"/>
+        <element label="Summary" max_length="32" name="u_summary" reference="x_muusa_cust_care_customer_care_category" reference_qual="level&gt;0^EQ" reference_qual_condition="level&gt;0^EQ" type="reference"/>
         <element label="WM Case ID" max_length="15" name="wm_case_id" type="string"/>
     </element>
 </database>
