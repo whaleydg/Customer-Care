@@ -17,15 +17,28 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cdcc01b1db7597004880f1f51d961901</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_muusa_cust_care_customer_care" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">40313d05db438300b4a6fff31d961974</sys_ui_form>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 16:28:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-03-07 14:57:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>44168a8437fc5f004a7edaa543990ede</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>19</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_muusa_cust_care_customer_care" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">40313d05db438300b4a6fff31d961974</sys_ui_form>
-            <sys_ui_section caption="Claim and Payment Information" display_value="Claim and Payment Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">cc168a8437fc5f004a7edaa543990edd</sys_ui_section>
+            <sys_ui_section caption="Payment Information" display_value="Payment Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">cc168a8437fc5f004a7edaa543990edd</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:02:40</sys_updated_on>
+            <sys_updated_on>2018-05-01 16:28:58</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_muusa_cust_care_customer_care</name>

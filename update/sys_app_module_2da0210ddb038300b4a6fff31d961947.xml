@@ -15,7 +15,7 @@
         <mobile_title>Customer Care Work Logs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_muusa_cust_care_customer_care_work_log</name>
-        <order>1000</order>
+        <order>1050</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,8 +28,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2da0210ddb038300b4a6fff31d961947</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Customer Care Work Logs</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Customer Care Work Log Entries</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
         <sys_policy/>
@@ -37,9 +37,9 @@
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
         <sys_update_name>sys_app_module_2da0210ddb038300b4a6fff31d961947</sys_update_name>
         <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2017-12-14 14:48:28</sys_updated_on>
+        <sys_updated_on>2018-05-01 17:24:04</sys_updated_on>
         <timeline_page/>
-        <title>Customer Care Work Logs</title>
+        <title>Customer Care Work Log Entries</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

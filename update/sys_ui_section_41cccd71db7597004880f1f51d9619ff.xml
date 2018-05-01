@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Claim Information" section_id="41cccd71db7597004880f1f51d9619ff" sys_domain="global" table="x_muusa_cust_care_customer_care" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pump_number</element>
+            <position>0</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>99cc01b1db7597004880f1f51d961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fuel_type</element>
+            <position>1</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>1dcc01b1db7597004880f1f51d961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>known_issue</element>
+            <position>2</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>9dcc01b1db7597004880f1f51d961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>11cc01b1db7597004880f1f51d961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_status</element>
+            <position>4</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>91cc01b1db7597004880f1f51d961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_amount</element>
+            <position>5</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>15cc01b1db7597004880f1f51d961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_1</element>
+            <position>6</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:39</sys_created_on>
+            <sys_id>95cc01b1db7597004880f1f51d961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Information" display_value="Claim Information" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">41cccd71db7597004880f1f51d9619ff</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Claim Information</caption>
+            <header>false</header>
+            <name>x_muusa_cust_care_customer_care</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 14:19:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>41cccd71db7597004880f1f51d9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Claim Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+            <sys_update_name>sys_ui_section_41cccd71db7597004880f1f51d9619ff</sys_update_name>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 14:19:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

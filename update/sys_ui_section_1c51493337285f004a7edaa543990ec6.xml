@@ -4,25 +4,47 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>7ed0bbf7dbe553004880f1f51d961912</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>ed9f75f5dbf597004880f1f51d96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
-            <text>Murphy USA Customer Care</text>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <text>Customer Care</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>e19f75f5dbf597004880f1f51d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <text>Details</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>e59f75f5dbf597004880f1f51d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <text/>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7ed0bbf7dbe553004880f1f51d961912</element>
+            <element>ed9f75f5dbf597004880f1f51d96194b</element>
             <position>0</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>32d0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a99f75f5dbf597004880f1f51d96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -30,13 +52,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b2d0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>2d9f75f5dbf597004880f1f51d96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -44,13 +66,13 @@
             <element>u_name</element>
             <position>2</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>36d0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>ad9f75f5dbf597004880f1f51d96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,13 +80,13 @@
             <element>u_address</element>
             <position>3</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b6d0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>219f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -72,13 +94,13 @@
             <element>u_email</element>
             <position>4</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ad0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a19f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -86,69 +108,69 @@
             <element>u_phone</element>
             <position>5</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>bad0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>259f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <position>6</position>
-            <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ed0bbf7dbe553004880f1f51d961913</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
-            <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>bed0bbf7dbe553004880f1f51d961913</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a59f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>32d0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>299f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b2d0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a99f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>9</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>2d9f75f5dbf597004880f1f51d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -156,139 +178,139 @@
             <element>assigned_to</element>
             <position>10</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>36d0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>ad9f75f5dbf597004880f1f51d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>wm_case_id</element>
-            <position>11</position>
-            <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b6d0bbf7dbe553004880f1f51d961914</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
-            <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>store_employee</element>
-            <position>12</position>
-            <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ad0bbf7dbe553004880f1f51d961914</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
-            <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>bad0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>219f75f5dbf597004880f1f51d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_summary</element>
-            <position>14</position>
+            <position>12</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ed0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a19f75f5dbf597004880f1f51d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_call_script</element>
-            <position>15</position>
+            <position>13</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>bed0bbf7dbe553004880f1f51d961914</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>259f75f5dbf597004880f1f51d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>16</position>
+            <position>14</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>32d0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a59f75f5dbf597004880f1f51d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>incident_date</element>
-            <position>17</position>
+            <element>e19f75f5dbf597004880f1f51d96194c</element>
+            <position>15</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b2d0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>299f75f5dbf597004880f1f51d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>16</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a99f75f5dbf597004880f1f51d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store_employee</element>
+            <position>17</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>2d9f75f5dbf597004880f1f51d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident_date</element>
+            <position>18</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>ad9f75f5dbf597004880f1f51d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>incident_amount</element>
-            <position>18</position>
-            <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>36d0bbf7dbe553004880f1f51d961915</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
-            <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_on</element>
             <position>19</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>b6d0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>219f75f5dbf597004880f1f51d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -296,41 +318,69 @@
             <element>.split</element>
             <position>20</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ad0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a19f75f5dbf597004880f1f51d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>source</element>
+            <element>e59f75f5dbf597004880f1f51d96194c</element>
             <position>21</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>bad0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>259f75f5dbf597004880f1f51d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wm_case_id</element>
+            <position>22</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a59f75f5dbf597004880f1f51d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>claim_status</element>
-            <position>22</position>
+            <element>sys_created_on</element>
+            <position>23</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:43</sys_created_on>
-            <sys_id>3ed0bbf7dbe553004880f1f51d961915</sys_id>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>299f75f5dbf597004880f1f51d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:43</sys_updated_on>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>24</position>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2018-05-01 18:01:41</sys_created_on>
+            <sys_id>a99f75f5dbf597004880f1f51d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2018-05-01 18:01:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
