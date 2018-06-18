@@ -3,26 +3,28 @@
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
         <license_condition/>
-        <license_model>none</license_model>
+        <license_model>fulfiller</license_model>
         <license_roles/>
-        <name>x_muusa_cust_care_customer_care_category</name>
+        <name>x_muusa_cust_care_customer_care</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
-        <owner_condition/>
+        <owner_condition table="x_muusa_cust_care_customer_care">opened_by=javascript:gs.getUserID()^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
-        <sys_created_on>2018-04-25 13:12:58</sys_created_on>
+        <sys_created_on>2017-12-13 14:26:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>75f3867bdba153004880f1f51d96191d</sys_id>
+        <sys_id>58c6e9514f329700ada30f5d0210c7d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_muusa_cust_care_customer_care_category</sys_name>
+        <sys_name>x_muusa_cust_care_customer_care</sys_name>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-        <sys_update_name>ua_table_licensing_config_75f3867bdba153004880f1f51d96191d</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_58c6e9514f329700ada30f5d0210c7d5</sys_update_name>
         <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2018-04-25 13:12:58</sys_updated_on>
+        <sys_updated_on>2017-12-13 14:26:06</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

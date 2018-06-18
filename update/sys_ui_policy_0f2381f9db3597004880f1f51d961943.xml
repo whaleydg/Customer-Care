@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_muusa_cust_care_customer_care">u_summary=c43a1a7bdbe153004880f1f51d96190e^EQ<item display_table="x_muusa_cust_care_customer_care_category" display_value="Customer Claims &gt; Bad Gas" endquery="false" field="u_summary" goto="false" newquery="false" operator="=" or="false" value="c43a1a7bdbe153004880f1f51d96190e"/>
+        <conditions table="x_muusa_cust_care_customer_care">u_summary=c43a1a7bdbe153004880f1f51d96190e^EQ<item endquery="false" field="u_summary" goto="false" newquery="false" operator="=" or="false" value="c43a1a7bdbe153004880f1f51d96190e"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

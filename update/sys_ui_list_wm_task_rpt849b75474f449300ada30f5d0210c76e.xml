@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_category.u_priority</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_vendor</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="109b75474f449300ada30f5d0210c76f">68abb5c74f449300ada30f5d0210c7ac</list_id>
+            <list_id display_value="wm_task" element="NULL" name="wm_task" parent="NULL" relationship="NULL" sys_domain="global" view="0004f7a9db2657c041c15205dc9619b8">68abb5c74f449300ada30f5d0210c7ac</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -132,7 +132,7 @@
             <sys_updated_by>whaledg</sys_updated_by>
             <sys_updated_on>2018-02-07 15:06:56</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt849b75474f449300ada30f5d0210c76e" name="RPT849b75474f449300ada30f5d0210c76e">109b75474f449300ada30f5d0210c76f</view>
+            <view display_value="Rpt849b75474f449300ada30f5d0210c76e" name="RPT849b75474f449300ada30f5d0210c76e">0004f7a9db2657c041c15205dc9619b8</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
