@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>customer_care_daily_division_report</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[baseUrl = gs.getProperty("glide.servlet.uri") + 'ess/main_content.do?sysparm_content_url=';
+ 
+var div = new GlideRecord('u_division');
+var division = '';
+div.addQuery('u_manager.sys_id', event.parm1);
+div.query();
+if(div.next()){
+division = div.u_id;
+}
+ 
+var gd = new GlideDate();
+var dayAgo = gs.beginningOfYesterday();
+gd.setValue(dayAgo);
+var yesterday = gd.getByFormat("MM-dd-yyyy");
+ 
+var gr = new GlideRecord("x_muusa_cust_care_customer_care");
+//gr.addEncodedQuery("sys_created_on>=javascript:gs.beginningOfYesterday()");
+gr.addQuery('location.u_district.u_parent.u_manager', event.parm1);
+gr.orderBy('sys_created_on');
+gr.query();
+if (gr.hasNext()) {
+ 
+template.print('<div style="font-size: 14pt; color: #ffffff; background-color: #00539b; font-family: Montserrat, sans-serif;">Customer Care tickets opened ' + yesterday + ' for Division ' + division + '</div><br/><br/>');
+ 
+while (gr.next()) {
+template.print('<table style="height: 25px; width: 500px">');
+template.print('<tr><th><div style="color: #7bb342; font-size: 12pt; font-family: Montserrat, sans-serif; text-align: left;">' + gr.getDisplayValue('location') + '</th><th style="font-size: 12pt; font-family: Montserrat, sans-serif;"><a href=' + baseUrl + gr.getLink() + '>' + gr.getValue('number') + '</a>' + '</tr></div></div></th>');
+template.print('</table>');
+ 
+template.print('<table style="height: 100px; width: 500px;">');
+template.print('<tr>');
+template.print('<td style="width: 50px; background-color: #ECECEC;">Summary</td>');
+template.print('<td style="width: 90px;">' + gr.getDisplayValue('u_summary') + '</td>');
+template.print('</tr>');
+template.print('<tr>');
+template.print('<td style="width: 50px; background-color: #ECECEC;">Contact Info</td>');
+template.print('<td style="width: 90px;">' + gr.getValue('first_name') + " " + gr.getValue('last_name') + " - " + gr.getValue('u_phone') + '</td>');
+template.print('</tr>');
+template.print('<tr>');
+template.print('<td style="width: 50px; background-color: #ECECEC;">Description</td>');
+template.print('<td style="width: 90px;">' + gr.getDisplayValue('description') + '</td>');
+template.print('</tr>');
+template.print('</table>');
+ 
+template.print('<div style="font-size: 10pt; color: #7cb348; font-family: Montserrat, sans-serif;"><a href=mailto:murphyusa@service-now.com?subject=Customer Care ticket update for ' +  gr.getValue('number') + '>' + "Send email update" + '</a></div><br/>');
+ 
+}
+}
+ ]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-06-18 20:43:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce01791d4f329700ada30f5d0210c750</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>customer_care_daily_division_report</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_script_email_ce01791d4f329700ada30f5d0210c750</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-06-18 21:01:34</sys_updated_on>
+    </sys_script_email>
+</record_update>
