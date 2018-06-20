@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html/>
+        <condition/>
+        <content_type>text/plain</content_type>
+        <copied>location.u_email</copied>
+        <from>javascript:gs.getUserDisplayName() + " &lt;" + gs.getUser().getEmail() + "&gt;"</from>
+        <name>Customer Care</name>
+        <order>100</order>
+        <recipients>assigned_to.email, location.u_district.u_manager.email</recipients>
+        <reply_to>javascript:gs.getUserDisplayName() + " &lt;" + gs.getUser().getEmail() + "&gt;", murphyusatest@service-now.com</reply_to>
+        <subject>Update to customer care ticket ${number}: ${u_summary}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-06-19 13:25:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c84619e14fba9700ada30f5d0210c71e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Customer Care</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_email_client_template_c84619e14fba9700ada30f5d0210c71e</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-06-19 13:49:46</sys_updated_on>
+        <table>x_muusa_cust_care_customer_care</table>
+    </sys_email_client_template>
+</record_update>
