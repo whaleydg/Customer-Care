@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="orchestration_manager" name="orchestration_manager">07c9fce3d7000200f215a5f75e6103f9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-07-18 15:00:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>83324f3e371f13804a7edaa543990e08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>07c9fce3d7000200f215a5f75e6103f9</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_embedded_help_role_83324f3e371f13804a7edaa543990e08</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-18 15:00:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
