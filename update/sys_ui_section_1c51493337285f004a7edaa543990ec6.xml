@@ -4,36 +4,36 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>05ef22b04f6353c0ada30f5d0210c77e</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>27e5fbe34f6b1fc0ada30f5d0210c743</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <text>Customer Care</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>09ef22b04f6353c0ada30f5d0210c77e</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>2fe5fbe34f6b1fc0ada30f5d0210c743</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <text>Details</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>05ef22b04f6353c0ada30f5d0210c77e</element>
+            <element>27e5fbe34f6b1fc0ada30f5d0210c743</element>
             <position>0</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c9ef22b04f6353c0ada30f5d0210c77e</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>efe5fbe34f6b1fc0ada30f5d0210c743</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -41,13 +41,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>4def22b04f6353c0ada30f5d0210c77e</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>63e5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -55,13 +55,13 @@
             <element>first_name</element>
             <position>2</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>cdef22b04f6353c0ada30f5d0210c77e</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e3e5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -69,13 +69,13 @@
             <element>last_name</element>
             <position>3</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>41ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>67e5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -83,13 +83,13 @@
             <element>u_address</element>
             <position>4</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c1ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e7e5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -97,13 +97,13 @@
             <element>u_email</element>
             <position>5</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>45ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6be5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -111,13 +111,13 @@
             <element>u_phone</element>
             <position>6</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c5ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>ebe5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -125,13 +125,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>49ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6fe5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -139,13 +139,13 @@
             <element>number</element>
             <position>8</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c9ef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>efe5fbe34f6b1fc0ada30f5d0210c744</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -153,13 +153,13 @@
             <element>state</element>
             <position>9</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>4def22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>63e5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -167,13 +167,13 @@
             <element>assignment_group</element>
             <position>10</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>cdef22b04f6353c0ada30f5d0210c77f</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e3e5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -181,13 +181,13 @@
             <element>.end_split</element>
             <position>11</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>41ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>67e5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -195,13 +195,13 @@
             <element>u_summary</element>
             <position>12</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c1ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e7e5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -209,13 +209,13 @@
             <element>description</element>
             <position>13</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>45ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6be5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -223,27 +223,27 @@
             <element>u_call_script</element>
             <position>14</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c5ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>ebe5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>09ef22b04f6353c0ada30f5d0210c77e</element>
+            <element>2fe5fbe34f6b1fc0ada30f5d0210c743</element>
             <position>15</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>49ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6fe5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -251,13 +251,13 @@
             <element>.begin_split</element>
             <position>16</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c9ef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>efe5fbe34f6b1fc0ada30f5d0210c745</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -265,13 +265,13 @@
             <element>location</element>
             <position>17</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>4def22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>63e5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -279,13 +279,13 @@
             <element>incident_date</element>
             <position>18</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>cdef22b04f6353c0ada30f5d0210c780</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e3e5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -293,13 +293,13 @@
             <element>incident_amount</element>
             <position>19</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>41ef22b04f6353c0ada30f5d0210c781</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>67e5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -307,13 +307,13 @@
             <element>.split</element>
             <position>20</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c1ef22b04f6353c0ada30f5d0210c781</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>e7e5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -321,13 +321,13 @@
             <element>store_employee</element>
             <position>21</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>45ef22b04f6353c0ada30f5d0210c781</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6be5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -335,13 +335,13 @@
             <element>sys_created_on</element>
             <position>22</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>c5ef22b04f6353c0ada30f5d0210c781</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>ebe5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -349,13 +349,13 @@
             <element>source</element>
             <position>23</position>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-07-24 18:48:41</sys_created_on>
-            <sys_id>49ef22b04f6353c0ada30f5d0210c781</sys_id>
+            <sys_created_on>2018-08-02 12:57:59</sys_created_on>
+            <sys_id>6fe5fbe34f6b1fc0ada30f5d0210c746</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_muusa_cust_care_customer_care" sys_domain="global" view="Default view">1c51493337285f004a7edaa543990ec6</sys_ui_section>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-07-24 18:48:41</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <conditions table="x_muusa_cust_care_customer_care">u_summarySTARTSWITHPayment Problems^EQ<item endquery="false" field="u_summary" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Payment Problems"/>
+        <active>false</active>
+        <conditions table="x_muusa_cust_care_customer_care">u_summarySTARTSWITHPayment Problems^ORu_summaryLIKEBad Gas^EQ<item endquery="false" field="u_summary" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Payment Problems"/>
+            <item endquery="false" field="u_summary" goto="false" newquery="false" operator="LIKE" or="true" value="Bad Gas"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -17,14 +18,10 @@
         <script_false><![CDATA[function onCondition() {
 	var section_name = g_form.getSectionNames();
 	g_form.setSectionDisplay('payment_information',false);
-	//g_form.setSectionDisplay('claim_information',false);
-	//g_form.setSectionDisplay(section_name[claim_andpaymentinformation],false);
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 	var section_name = g_form.getSectionNames();
 	g_form.setSectionDisplay('payment_information',true);
-	//g_form.setSectionDisplay('claim_information',true);
-	//g_form.setSectionDisplay(section_name[claim_andpaymentinformation],false);
 }]]></script_true>
         <set_values/>
         <short_description>Show Payment Information</short_description>
@@ -34,7 +31,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b6954df9db3597004880f1f51d961954</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Show Payment Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
@@ -43,7 +40,7 @@
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
         <sys_update_name>sys_ui_policy_b6954df9db3597004880f1f51d961954</sys_update_name>
         <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2018-05-01 13:50:14</sys_updated_on>
+        <sys_updated_on>2018-08-01 21:27:43</sys_updated_on>
         <table>x_muusa_cust_care_customer_care</table>
         <u_invisible/>
         <u_mandatory/>

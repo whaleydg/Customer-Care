@@ -11,9 +11,9 @@
             <plural>Summaries</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
-            <sys_created_on>2018-04-25 21:08:09</sys_created_on>
+            <sys_created_on>2018-08-02 12:57:40</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>eeb073f7dbe553004880f1f51d9619c3</sys_id>
+            <sys_id>07d57be34f6b1fc0ada30f5d0210c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Summary</sys_name>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
@@ -22,7 +22,7 @@
             <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
             <sys_update_name>sys_documentation_x_muusa_cust_care_customer_care_u_summary_en</sys_update_name>
             <sys_updated_by>whaledg</sys_updated_by>
-            <sys_updated_on>2018-04-25 21:08:09</sys_updated_on>
+            <sys_updated_on>2018-08-02 12:57:40</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

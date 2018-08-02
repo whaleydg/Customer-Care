@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="3" type="collection">
+    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="576" type="collection">
         <element choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
             <choice>
                 <element label="Visa" sequence="10" value="Visa"/>
@@ -108,6 +108,6 @@
         <element attributes="omit_sys_original=true" label="Amount Paid" max_length="15" name="u_currency_1" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
-        <element label="Summary" max_length="32" name="u_summary" reference="x_muusa_cust_care_customer_care_category" reference_qual="categoryISNOTEMPTY^active=true^EQ" reference_qual_condition="categoryISNOTEMPTY^active=true^EQ" type="reference"/>
+        <element label="Summary" mandatory="true" max_length="32" name="u_summary" reference="x_muusa_cust_care_customer_care_category" type="reference"/>
     </element>
 </database>

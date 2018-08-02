@@ -3,20 +3,20 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>
-        <sys_created_on>2018-04-25 13:12:57</sys_created_on>
+        <sys_created_on>2018-08-01 21:51:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>2df3467bdba153004880f1f51d9619f0</sys_id>
+        <sys_id>dd8668a34fefdbc0ada30f5d0210c7e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_muusa_cust_care_customer_care_category.x_muusa_cust_care.customer_care_category_user</sys_name>
+        <sys_name>x_muusa_cust_care_customer_care.itil</sys_name>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-        <sys_security_acl display_value="x_muusa_cust_care_customer_care_category">a5f3467bdba153004880f1f51d9619ed</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_2df3467bdba153004880f1f51d9619f0</sys_update_name>
+        <sys_security_acl display_value="x_muusa_cust_care_customer_care">0c49ddc9db038300b4a6fff31d96193c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dd8668a34fefdbc0ada30f5d0210c7e8</sys_update_name>
         <sys_updated_by>whaledg</sys_updated_by>
-        <sys_updated_on>2018-04-25 13:12:57</sys_updated_on>
-        <sys_user_role display_value="x_muusa_cust_care.customer_care_category_user" name="x_muusa_cust_care.customer_care_category_user">5df3467bdba153004880f1f51d9619b1</sys_user_role>
+        <sys_updated_on>2018-08-01 21:51:58</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">a80d3c116f1221002381bc237d3ee4e1</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
