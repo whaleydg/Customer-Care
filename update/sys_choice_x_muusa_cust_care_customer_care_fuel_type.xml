@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="fuel_type" table="x_muusa_cust_care_customer_care" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -10,6 +9,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:40:52</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -28,6 +28,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:41:20</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:43:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -64,6 +66,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:42:24</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -82,6 +85,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:40:05</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -100,6 +104,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:40:31</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -118,6 +123,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:39:39</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -134,7 +140,7 @@
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 15:39:39</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>1dbbdca74fafdbc0ada30f5d0210c779</sys_id>
+            <sys_id>4090b933db235b049ca773c58c9619ff</sys_id>
             <sys_mod_count>7</sys_mod_count>
             <sys_name>fuel_type</sys_name>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>

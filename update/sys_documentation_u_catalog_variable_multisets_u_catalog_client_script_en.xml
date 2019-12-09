@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_catalog_client_script" label="Catalog Client Script" language="en" table="u_catalog_variable_multisets">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_catalog_client_script</element>

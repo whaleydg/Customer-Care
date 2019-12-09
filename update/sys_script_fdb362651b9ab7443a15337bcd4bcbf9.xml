@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_muusa_cust_care_customer_care</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Add Leading Zeros to Last four</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function pad(n, width, z) {
+  z = z || '0';
+  n = n + '';
+  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+var digit = current.last_four_digits;
+var num = digit.toString();
+//var lastFour = current.last_four_of_card;
+var lz = pad(num, 4);
+current.last_four_of_card = lz.slice(-4);
+
+
+(function executeRule(current, previous /*null when async*/) {
+
+var number = current.getValue('last_four_of_card');	
+	current.last_four_of_card("0000" + number).slice(-4);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2019-06-27 14:55:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>fdb362651b9ab7443a15337bcd4bcbf9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Add Leading Zeros to Last four</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_script_fdb362651b9ab7443a15337bcd4bcbf9</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2019-07-03 11:39:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

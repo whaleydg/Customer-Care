@@ -1,113 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="email_client=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="576" type="collection">
-        <element choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasLabels=true" extends="task" label="Customer Care" max_length="40" name="x_muusa_cust_care_customer_care" sizeclass="196338" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Card Type" max_length="20" name="card_type" type="choice">
             <choice>
-                <element label="Visa" sequence="10" value="Visa"/>
-                <element label="Mastercard" sequence="20" value="Mastercard"/>
-                <element label="Discover" sequence="30" value="Discover"/>
-                <element label="Wright Express" sequence="40" value="Wright Express"/>
-                <element label="Walmart Shopping Card" sequence="50" value="Walmart Shopping Card"/>
-                <element label="Walmart Credit Card" sequence="60" value="Walmart Credit Card"/>
-                <element label="Walmart Discover" sequence="70" value="Walmart Discover"/>
-                <element label="Voyager" sequence="80" value="Voyager"/>
-                <element label="Other" sequence="90" value="Other"/>
+                <element inactive_on_update="false" label="Visa" sequence="10" value="Visa"/>
+                <element inactive_on_update="false" label="Mastercard" sequence="20" value="Mastercard"/>
+                <element inactive_on_update="false" label="Discover" sequence="30" value="Discover"/>
+                <element inactive_on_update="false" label="Wright Express" sequence="40" value="Wright Express"/>
+                <element inactive_on_update="false" label="Walmart Shopping Card" sequence="50" value="Walmart Shopping Card"/>
+                <element inactive_on_update="false" label="Walmart Credit Card" sequence="60" value="Walmart Credit Card"/>
+                <element inactive_on_update="false" label="Walmart Discover" sequence="70" value="Walmart Discover"/>
+                <element inactive_on_update="false" label="Voyager" sequence="80" value="Voyager"/>
+                <element inactive_on_update="false" label="Other" sequence="90" value="Other"/>
             </choice>
         </element>
         <element label="Check Number" max_length="10" name="check_number" type="string"/>
-        <element label="Claim Amount" max_length="15" name="claim_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Claim Amount" max_length="20" name="claim_amount" type="currency"/>
         <element label="Claim Number" max_length="15" name="claim_number" type="string"/>
-        <element choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Claim Status" max_length="25" name="claim_status" type="choice">
             <choice>
-                <element label="Approved" sequence="10" value="Approved"/>
-                <element label="Denied" sequence="20" value="Denied"/>
-                <element label="Denied with payment" sequence="30" value="Denied with payment"/>
+                <element inactive_on_update="false" label="Approved" sequence="10" value="Approved"/>
+                <element inactive_on_update="false" label="Denied" sequence="20" value="Denied"/>
+                <element inactive_on_update="false" label="Denied with payment" sequence="30" value="Denied with payment"/>
             </choice>
         </element>
         <element label="Financial Institution" max_length="100" name="financial_institution" type="string"/>
         <element label="Institution Phone" max_length="12" name="fin_inst_phone" type="string"/>
         <element label="First name" max_length="25" name="first_name" type="string"/>
-        <element choice="1" label="Fuel Type" max_length="25" name="fuel_type" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fuel Type" max_length="25" name="fuel_type" type="choice">
             <choice>
-                <element label="Diesel" value="Diesel"/>
-                <element label="E85" value="E85"/>
-                <element label="Kerosene" value="Kerosene"/>
-                <element label="Other" value="Other"/>
-                <element label="Plus" value="Plus"/>
-                <element label="Premium" value="Premium"/>
-                <element label="Unleaded" value="Unleaded"/>
+                <element inactive_on_update="false" label="Diesel" value="Diesel"/>
+                <element inactive_on_update="false" label="E85" value="E85"/>
+                <element inactive_on_update="false" label="Kerosene" value="Kerosene"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Plus" value="Plus"/>
+                <element inactive_on_update="false" label="Premium" value="Premium"/>
+                <element inactive_on_update="false" label="Unleaded" value="Unleaded"/>
             </choice>
         </element>
-        <element label="Incident Amount" max_length="15" name="incident_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Incident Amount" max_length="20" name="incident_amount" type="currency"/>
         <element label="Incident Date" max_length="40" name="incident_date" type="glide_date_time"/>
-        <element choice="1" label="Known Issue" max_length="5" name="known_issue" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Known Issue" max_length="5" name="known_issue" type="choice">
             <choice>
-                <element label="Cross Drop" sequence="10" value="Cross Drop"/>
-                <element label="Water Contamination" sequence="20" value="Water Contamination"/>
-                <element label="Product Contamination" sequence="30" value="Product Contamination"/>
-                <element label="Other" sequence="40" value="Other"/>
+                <element inactive_on_update="false" label="Cross Drop" sequence="10" value="Cross Drop"/>
+                <element inactive_on_update="false" label="Water Contamination" sequence="20" value="Water Contamination"/>
+                <element inactive_on_update="false" label="Product Contamination" sequence="30" value="Product Contamination"/>
+                <element inactive_on_update="false" label="Other" sequence="40" value="Other"/>
             </choice>
         </element>
-        <element attributes="format=none" label="Last 4 Digits" max_length="4" name="last_four_digits" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,format=none" label="Last 4 Digits" max_length="4" name="last_four_digits" type="integer"/>
+        <element label="Last four of card" max_length="4" name="last_four_of_card" type="string"/>
         <element label="Last name" max_length="25" name="last_name" type="string"/>
-        <element choice="1" label="Preferred Reimbursement" max_length="10" name="preferred_reimbursement" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Preferred Reimbursement" max_length="10" name="preferred_reimbursement" type="choice">
             <choice>
-                <element label="Check" sequence="1" value="Check"/>
-                <element label="Gift Card" sequence="5" value="Gift Card"/>
+                <element inactive_on_update="false" label="Check" sequence="1" value="Check"/>
+                <element inactive_on_update="false" label="Gift Card" sequence="5" value="Gift Card"/>
             </choice>
         </element>
-        <element choice="1" label="Pump #" max_length="2" name="pump_number" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pump #" max_length="2" name="pump_number" type="choice">
             <choice>
-                <element label="1" sequence="0" value="1"/>
-                <element label="2" sequence="1" value="2"/>
-                <element label="3" sequence="2" value="3"/>
-                <element label="4" sequence="3" value="4"/>
-                <element label="5" sequence="4" value="5"/>
-                <element label="6" sequence="5" value="6"/>
-                <element label="7" sequence="6" value="7"/>
-                <element label="8" sequence="7" value="8"/>
-                <element label="9" sequence="8" value="9"/>
-                <element label="10" sequence="9" value="10"/>
-                <element label="11" sequence="10" value="11"/>
-                <element label="12" sequence="11" value="12"/>
-                <element label="13" sequence="12" value="13"/>
-                <element label="14" sequence="13" value="14"/>
-                <element label="15" sequence="14" value="15"/>
-                <element label="16" sequence="15" value="16"/>
-                <element label="17" sequence="16" value="17"/>
-                <element label="18" sequence="17" value="18"/>
-                <element label="19" sequence="18" value="19"/>
-                <element label="20" sequence="19" value="20"/>
-                <element label="21" sequence="20" value="21"/>
-                <element label="22" sequence="21" value="22"/>
-                <element label="23" sequence="22" value="23"/>
-                <element label="24" sequence="23" value="24"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="18" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="19" value="20"/>
+                <element inactive_on_update="false" label="21" sequence="20" value="21"/>
+                <element inactive_on_update="false" label="22" sequence="21" value="22"/>
+                <element inactive_on_update="false" label="23" sequence="22" value="23"/>
+                <element inactive_on_update="false" label="24" sequence="23" value="24"/>
             </choice>
         </element>
-        <element choice="1" label="Source" max_length="25" name="source" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" mandatory="true" max_length="25" name="source" type="choice">
             <choice>
-                <element label="Direct Input" sequence="1" value="Direct Input"/>
-                <element label="Email" sequence="5" value="Email"/>
-                <element label="External Escalation" sequence="10" value="External Escalation"/>
-                <element label="Fax" sequence="15" value="Fax"/>
-                <element label="Phone" sequence="25" value="Phone"/>
-                <element label="SMG Alerts" sequence="30" value="SMG Alerts"/>
-                <element label="Social Media" sequence="35" value="Social Media"/>
-                <element label="Systems Management" sequence="40" value="Systems Management"/>
-                <element label="Text Assist" sequence="45" value="Text Assist"/>
-                <element label="USPS" sequence="50" value="USPS"/>
-                <element label="Voice Mail" sequence="55" value="Voice Mail"/>
-                <element label="Web" sequence="60" value="Web"/>
+                <element inactive_on_update="false" label="Direct Input" sequence="1" value="Direct Input"/>
+                <element inactive_on_update="false" label="Email" sequence="5" value="Email"/>
+                <element inactive_on_update="false" label="External Escalation" sequence="10" value="External Escalation"/>
+                <element inactive_on_update="false" label="Fax" sequence="15" value="Fax"/>
+                <element inactive_on_update="false" label="MDR" sequence="20" value="MDR"/>
+                <element inactive_on_update="false" label="Phone" sequence="25" value="Phone"/>
+                <element inactive_on_update="false" label="SMG Alerts" sequence="30" value="SMG Alerts"/>
+                <element inactive_on_update="false" label="Social Media" sequence="35" value="Social Media"/>
+                <element inactive_on_update="false" label="Systems Management" sequence="40" value="Systems Management"/>
+                <element inactive_on_update="false" label="Text Assist" sequence="45" value="Text Assist"/>
+                <element inactive_on_update="false" label="USPS" sequence="50" value="USPS"/>
+                <element inactive_on_update="false" label="Voice Mail" sequence="55" value="Voice Mail"/>
+                <element inactive_on_update="false" label="Web" sequence="60" value="Web"/>
             </choice>
         </element>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name;title" choice="2" label="Store Employee" max_length="32" name="store_employee" reference="sys_user" reference_qual="javascript:current.location == '' ? '' : &quot;location=&quot; + current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+        <element attributes="edge_encryption_enabled=true,ref_ac_columns=name;title,ref_auto_completer=AJAXTableCompleter" choice="2" label="Store Employee" max_length="32" name="store_employee" reference="sys_user" reference_qual="javascript:current.location == '' ? '' : &quot;location=&quot; + current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
-        <element label="Call Script" max_length="8000" name="u_call_script" read_only="true" type="html"/>
-        <element attributes="omit_sys_original=true" label="Amount Paid" max_length="15" name="u_currency_1" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Script" max_length="8000" name="u_call_script" type="html" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Amount Paid" max_length="20" name="u_currency_1" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
-        <element label="Summary" mandatory="true" max_length="32" name="u_summary" reference="x_muusa_cust_care_customer_care_category" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Summary" max_length="32" name="u_summary" reference="x_muusa_cust_care_customer_care_category" reference_qual="active=true^level&gt;0^EQ" reference_qual_condition="active=true^level&gt;0^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_summary"/>
+        </index>
+        <index name="index2">
+            <element name="store_employee"/>
+        </index>
     </element>
 </database>

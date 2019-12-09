@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_policy">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>false</active>
         <conditions table="x_muusa_cust_care_customer_care">u_summarySTARTSWITHPayment Problems^ORu_summaryLIKEBad Gas^EQ<item endquery="false" field="u_summary" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Payment Problems"/>
@@ -9,6 +8,7 @@
         <description/>
         <global>true</global>
         <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
         <model_id/>
         <model_table/>
         <on_load>true</on_load>

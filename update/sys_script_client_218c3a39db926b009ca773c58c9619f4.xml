@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_phone</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Format Phone Number</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  var phone = g_form.getValue('u_phone');
+  var cleaned = ('' + phone).replace(/\D/g, '');
+  var match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
+  if (match) {
+    return g_form.setValue('u_phone', '(' + match[1] + ')' + match[2] + '-' + match[3]);
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2018-12-11 15:10:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>218c3a39db926b009ca773c58c9619f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Format Phone Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_script_client_218c3a39db926b009ca773c58c9619f4</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2019-06-27 21:41:20</sys_updated_on>
+        <table>x_muusa_cust_care_customer_care</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

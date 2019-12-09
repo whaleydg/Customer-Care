@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_max" label="Max" language="en" table="u_catalog_variable_multisets">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_max</element>

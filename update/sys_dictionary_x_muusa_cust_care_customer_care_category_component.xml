@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="component" table="x_muusa_cust_care_customer_care_category">
         <active>true</active>
         <array>false</array>
@@ -30,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>60</max_length>
         <name>x_muusa_cust_care_customer_care_category</name>
         <next_element/>
         <primary>false</primary>
@@ -50,16 +49,16 @@
         <sys_created_by>whaledg</sys_created_by>
         <sys_created_on>2018-04-25 13:40:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>28ab14674fafdbc0ada30f5d0210c7c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>43707133db235b049ca773c58c96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Component</sys_name>
         <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
         <sys_update_name>sys_dictionary_x_muusa_cust_care_customer_care_category_component</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-01 21:04:20</sys_updated_on>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2018-08-16 14:38:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_label/>

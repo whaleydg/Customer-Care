@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="af7996f7dbe153004880f1f51d96192d" sys_domain="global" table="x_muusa_cust_care_customer_care_category" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>component</element>

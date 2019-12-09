@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Customer Care Category" max_length="40" name="x_muusa_cust_care_customer_care_category" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
-        <element calculation="var separator = &quot; &gt; &quot;;&#10;if(current.category.nil()){&#10;   current.component;&#10;}&#10;else{&#10;   current.category.categorical + separator + current.component;&#10;}" display="true" label="Summary" max_length="100" name="categorical" read_only="true" type="string" virtual="true"/>
+        <element calculation="var separator = &quot; &gt; &quot;;&#10;if(current.category.nil()){&#10;   current.component;&#10;}&#10;else{&#10;   current.category.categorical + separator + current.component;&#10;}" display="true" label="Summary" max_length="255" name="categorical" read_only="true" type="string" virtual="true"/>
         <element label="Category" max_length="32" name="category" reference="x_muusa_cust_care_customer_care_category" type="reference"/>
-        <element label="Component" max_length="40" name="component" type="string"/>
+        <element label="Component" max_length="60" name="component" type="string"/>
         <element label="Level" max_length="40" name="level" type="integer"/>
         <element label="Priority" max_length="40" name="priority" type="string"/>
         <element label="Call Script" max_length="65536" name="script" type="html"/>

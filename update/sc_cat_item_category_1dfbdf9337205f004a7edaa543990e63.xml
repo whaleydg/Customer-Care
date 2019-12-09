@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Set up vendor for EDI">1dfbdf9337205f004a7edaa543990e61</sc_cat_item>
         <sc_category display_value="TS - Application Development">9674bb6337f232004a7edaa543990ed4</sc_category>

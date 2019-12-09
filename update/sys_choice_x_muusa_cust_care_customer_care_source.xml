@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="source" table="x_muusa_cust_care_customer_care" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -10,6 +9,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>1</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:26:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -28,6 +28,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>5</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:26:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>10</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:27:16</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -64,6 +66,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>15</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:27:35</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -78,10 +81,30 @@
             <element>source</element>
             <hint/>
             <inactive>false</inactive>
+            <label>MDR</label>
+            <language>en</language>
+            <name>x_muusa_cust_care_customer_care</name>
+            <sequence>20</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>whaledg</sys_created_by>
+            <sys_created_on>2019-12-09 13:50:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cb5344721bad08d05588a9bfbd4bcbe5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>whaledg</sys_updated_by>
+            <sys_updated_on>2019-12-09 13:51:01</sys_updated_on>
+            <value>MDR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>source</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Phone</label>
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>25</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:28:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -100,6 +123,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>30</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:28:53</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -118,6 +142,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>35</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:29:16</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -136,6 +161,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>40</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:29:43</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -154,6 +180,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>45</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:30:04</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -172,6 +199,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>50</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:30:29</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -190,6 +218,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>55</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:30:57</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -208,6 +237,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>60</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:31:12</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -224,7 +254,7 @@
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-02-28 16:26:25</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>35bb10e74fafdbc0ada30f5d0210c761</sys_id>
+            <sys_id>d890f933db235b049ca773c58c9619cd</sys_id>
             <sys_mod_count>12</sys_mod_count>
             <sys_name>source</sys_name>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Create a report source</h1>  <div class="body taskbody">  <div class="section prereq p">            <p class="p">Role required: report_admin</p>        </div>  <div class="li step p">    <span class="ph cmd">Fill in the fields on the form, as appropriate.</span>    <table class="simpletable choicetable choicetableborder" id="sys_report_source-normal__choicetable_ebc_nwd_d1b"><thead><tr class="sthead chhead"><th id="d546714e37-option">Field</th><th id="d546714e37-desc">Description</th></tr></thead><tbody><tr class="strow chrow"><td id="d546714e50" class="stentry choption"><strong>Name</strong></td><td class="stentry chdesc">The name of the report source. For example, <span class="ph uicontrol">Open       incidents</span></td></tr><tr class="strow chrow"><td id="d546714e61" class="stentry choption"><strong>Table</strong></td><td class="stentry chdesc">The table on which the report source is based. For example, <span class="ph uicontrol">Incident        [incident]</span>.</td></tr><tr class="strow chrow"><td id="d546714e73" class="stentry choption"><strong>Description</strong></td><td class="stentry chdesc">A more detailed description of what the report source does and its purpose.</td></tr><tr class="strow chrow"><td id="d546714e82" class="stentry choption"><strong>Filter</strong></td><td class="stentry chdesc">Conditions for the specific table records to include in the report source. For       example, to include open incidents, select <span class="ph uicontrol">[State] [is] [Active]</span> for       the Incident table.<div class="note note"><span class="notetitle">Note:</span> If the report source is used for a report that also includes OR        conditions, records are only included in the report if they match the conditions in both the        report source and the report.</div></td></tr></tbody></table>   </div> </div>]]></content>
+        <last_sync>2019-06-06 13:26:12</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_report_source-normal</name>
+        <page>sys_report_source</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-08-10 13:15:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18964dd2db3bd7849ca773c58c96192d</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>sys_report_source-normal</sys_name>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_embedded_help_content_18964dd2db3bd7849ca773c58c96192d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-06 13:26:12</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+</record_update>

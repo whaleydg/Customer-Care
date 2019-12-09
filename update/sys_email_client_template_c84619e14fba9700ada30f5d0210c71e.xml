@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_email_client_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
     <sys_email_client_template action="INSERT_OR_UPDATE">
         <blind_copied/>
         <body/>
@@ -7,11 +6,14 @@
         <condition/>
         <content_type>text/plain</content_type>
         <copied>location.u_email</copied>
+        <email_client_from_address/>
         <from>javascript:gs.getUserDisplayName() + " &lt;" + gs.getUser().getEmail() + "&gt;"</from>
+        <from_generation_type/>
         <name>Customer Care</name>
         <order>100</order>
         <recipients>assigned_to.email, location.u_district.u_manager.email</recipients>
         <reply_to>javascript:gs.getUserDisplayName() + " &lt;" + gs.getUser().getEmail() + "&gt;", murphyusatest@service-now.com</reply_to>
+        <script_from/>
         <subject>Update to customer care ticket ${number}: ${u_summary}</subject>
         <sys_class_name>sys_email_client_template</sys_class_name>
         <sys_created_by>whaledg</sys_created_by>

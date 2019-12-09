@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>last_four_of_card</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Require Numbers</name>
+        <order/>
+        <script><![CDATA[
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+	}
+    var regexp = /^[0-9]*$/;
+    g_form.hideFieldMsg(control, true);
+    if (!regexp.test(newValue)) {
+        g_form.showFieldMsg(control, 'Only numbers allowed', 'error');
+        control.value = '';
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>whaledg</sys_created_by>
+        <sys_created_on>2019-06-27 13:53:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7ef41a291b5ab7443a15337bcd4bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Require Numbers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
+        <sys_update_name>sys_script_client_7ef41a291b5ab7443a15337bcd4bcbf5</sys_update_name>
+        <sys_updated_by>whaledg</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:02:28</sys_updated_on>
+        <table>x_muusa_cust_care_customer_care</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

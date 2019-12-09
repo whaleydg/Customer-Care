@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2018-08-02 19:53:33">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page/>
         <name>PA New Tab</name>
@@ -17,95 +16,5 @@
         <sys_update_name>sys_grid_canvas_82a0484e37fa5b004a7edaa543990eea</sys_update_name>
         <sys_updated_by>whaledg</sys_updated_by>
         <sys_updated_on>2018-06-20 20:28:23</sys_updated_on>
-        <related_items_node>
-            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                <grid_canvas display_value="PA New Tab">82a0484e37fa5b004a7edaa543990eea</grid_canvas>
-                <height>25</height>
-                <portal_widget display_value="">06a00c4e37fa5b004a7edaa543990ec6</portal_widget>
-                <posx>0</posx>
-                <posy>10</posy>
-                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                <sys_created_by>whaledg</sys_created_by>
-                <sys_created_on>2018-06-20 20:28:24</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
-                <sys_id>1aa00c4e37fa5b004a7edaa543990ed1</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_name>82a0484e37fa5b004a7edaa543990eea</sys_name>
-                <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
-                <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-                <sys_update_name>sys_grid_canvas_pane_1aa00c4e37fa5b004a7edaa543990ed1</sys_update_name>
-                <sys_updated_by>whaledg</sys_updated_by>
-                <sys_updated_on>2018-06-20 20:28:24</sys_updated_on>
-                <width>12</width>
-            </sys_grid_canvas_pane>
-            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                <grid_canvas display_value="PA New Tab">82a0484e37fa5b004a7edaa543990eea</grid_canvas>
-                <height>9</height>
-                <portal_widget display_value="">06a00c4e37fa5b004a7edaa543990ec8</portal_widget>
-                <posx>0</posx>
-                <posy>1</posy>
-                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                <sys_created_by>whaledg</sys_created_by>
-                <sys_created_on>2018-06-20 20:28:24</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
-                <sys_id>96a00c4e37fa5b004a7edaa543990ecf</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_name>82a0484e37fa5b004a7edaa543990eea</sys_name>
-                <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
-                <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-                <sys_update_name>sys_grid_canvas_pane_96a00c4e37fa5b004a7edaa543990ecf</sys_update_name>
-                <sys_updated_by>whaledg</sys_updated_by>
-                <sys_updated_on>2018-06-20 20:28:24</sys_updated_on>
-                <width>12</width>
-            </sys_grid_canvas_pane>
-            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                <grid_canvas display_value="PA New Tab">82a0484e37fa5b004a7edaa543990eea</grid_canvas>
-                <height>26</height>
-                <portal_widget display_value="">caa00c4e37fa5b004a7edaa543990eca</portal_widget>
-                <posx>0</posx>
-                <posy>35</posy>
-                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                <sys_created_by>whaledg</sys_created_by>
-                <sys_created_on>2018-06-20 20:28:24</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
-                <sys_id>9aa00c4e37fa5b004a7edaa543990ed3</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_name>82a0484e37fa5b004a7edaa543990eea</sys_name>
-                <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
-                <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-                <sys_update_name>sys_grid_canvas_pane_9aa00c4e37fa5b004a7edaa543990ed3</sys_update_name>
-                <sys_updated_by>whaledg</sys_updated_by>
-                <sys_updated_on>2018-06-20 20:28:24</sys_updated_on>
-                <width>12</width>
-            </sys_grid_canvas_pane>
-            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                <grid_canvas display_value="PA New Tab">82a0484e37fa5b004a7edaa543990eea</grid_canvas>
-                <height>1</height>
-                <portal_widget display_value="">c6a00c4e37fa5b004a7edaa543990ec9</portal_widget>
-                <posx>0</posx>
-                <posy>0</posy>
-                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                <sys_created_by>whaledg</sys_created_by>
-                <sys_created_on>2018-06-20 20:28:24</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
-                <sys_id>daa00c4e37fa5b004a7edaa543990ecc</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_name>82a0484e37fa5b004a7edaa543990eea</sys_name>
-                <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>
-                <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                <sys_scope display_value="Customer Care">f5c8dd89db038300b4a6fff31d961993</sys_scope>
-                <sys_update_name>sys_grid_canvas_pane_daa00c4e37fa5b004a7edaa543990ecc</sys_update_name>
-                <sys_updated_by>whaledg</sys_updated_by>
-                <sys_updated_on>2018-06-20 20:28:24</sys_updated_on>
-                <width>12</width>
-            </sys_grid_canvas_pane>
-        </related_items_node>
     </sys_grid_canvas>
 </record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="std_change_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_change_template">
     <std_change_template action="INSERT_OR_UPDATE">
         <active>false</active>
         <global>true</global>

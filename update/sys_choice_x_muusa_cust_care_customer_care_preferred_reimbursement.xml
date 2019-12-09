@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="preferred_reimbursement" table="x_muusa_cust_care_customer_care" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -10,6 +9,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>1</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-03-01 14:45:27</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -28,6 +28,7 @@
             <language>en</language>
             <name>x_muusa_cust_care_customer_care</name>
             <sequence>5</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-03-01 14:46:05</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,7 +45,7 @@
             <sys_created_by>whaledg</sys_created_by>
             <sys_created_on>2018-03-01 14:45:27</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>edbbdca74fafdbc0ada30f5d0210c7a4</sys_id>
+            <sys_id>0490f933db235b049ca773c58c96192a</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>preferred_reimbursement</sys_name>
             <sys_package display_value="Customer Care" source="x_muusa_cust_care">f5c8dd89db038300b4a6fff31d961993</sys_package>

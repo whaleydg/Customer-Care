@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
         <role display_value="x_muusa_cust_care.customer_care_category_user" name="x_muusa_cust_care.customer_care_category_user">5df3467bdba153004880f1f51d9619b1</role>

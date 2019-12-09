@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
@@ -9,7 +8,7 @@
         <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
+        <extension_model>class</extension_model>
         <is_extendable>false</is_extendable>
         <label>Customer Care</label>
         <live_feed_enabled>false</live_feed_enabled>
